@@ -1,0 +1,481 @@
+/*
+   body { overflow: scroll; 
+          margin: auto; 
+          width:1000px; 
+          font: 75% georgia, sans-serif;
+          line-height: 1.88889;
+          color: #555753; 
+          background:#ffffff;
+
+   }
+   */
+   a    { 
+          color:#000000; 
+          text-shadow:1px 1px 1px #cccccc;
+          background:#f3f3f3;
+   }
+
+   p  {
+          text-align:justify;
+   } 
+
+   header, footer, aside, section {
+          display:block;
+   }
+
+   img   {
+    
+          line-height:40px; 
+          padding:18px 0px;          
+   }
+
+   h1   { margin:auto; 
+          line-height:40px;
+          text-align:center;
+          font-size:16px;
+   }
+
+   nav  {
+          width:960px;
+          height:40px;
+          border-radius:10px;
+          background:#f3f3f3;
+          color:#000000; 
+          border:1px solid #cccccc;
+          position:absolute;
+   }
+
+   nav ul {
+          list-style-image:none;
+          list-style-position:outside;
+          list-style-type:none;
+          margin:0 auto;
+          width:96%;
+   }
+
+   nav ul li {
+          float:left;
+   }
+
+   nav ul li a{
+          margin-right:20px;
+          display:block;
+          line-height:40px;
+   }
+
+   #content {
+          display:table;
+          margin-top:40px;
+          width:960px;
+   }
+
+   #mcontent {
+          display:table-cell;
+          padding-right:22px;
+          width:67%;
+   }
+
+   aside {
+          border-radius:11px;
+          display:table-cell;
+          width:33%;
+          padding:11px 22px;
+          background:#f3f3f3;
+          color:#ffffff;
+   }
+
+   aside ul {
+          list-style-image:none;
+          list-style-position:outside;
+          list-style-type:none;
+
+   }
+
+   .image {
+          margin:6px auto; 
+          text-align:center;
+   } 
+
+
+    footer  {
+          width:960px;
+          height:30px;
+          border-radius:10px;
+          background:#f3f3f3;
+          border:1px solid #cccccc;
+          position:absolute;
+          text-align:center; 
+          font-size:11px;
+          font-weight:bold;
+          display:inline-block;
+          margin: auto;
+          padding-top:10px;
+          color:#000000;
+   }
+
+   .NOS{
+		font: 25px solid black;
+		color: #488BBA;
+		text-shadow: 2px 2px #b3b3b3;
+   }
+   
+   .normShadow{
+		font-size: 16px;
+		color: #488BBA;
+		text-shadow: 2px 2px #5b825b;
+   }
+   
+   .WG{
+   		width: 915px;
+		height: 605px;
+		background: linear-gradient(#ffffff, #cccccc);
+   }
+   
+   .titleName{
+		margin-right: 10px;
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: underline;
+   }
+   
+   .table{
+		position: relative;
+		width: 900px;
+		height: 605px;
+		margin-top: 5px;
+		margin-left: 5px;
+		border: 1px solid #aaaaaa;
+	}
+	
+	.detail1{
+		position: absolute;
+		width: 360px;
+		height: 580px;
+		margin-left: 163px;
+		top:10px;
+		border: 1px solid #aaaaaa;
+	}
+	.detail2{
+		position: absolute;
+		width: 360px;
+		height: 580px;
+		margin-left: 525px;
+		top:10px;
+		border: 1px solid #aaaaaa;
+	}
+	
+	.borderC1{
+		position: absolute;
+		border-color: #99ff99;
+		width: 320px;
+		height: 150px;
+		margin-top: 45px;
+		margin-left: 180px;
+		border-style: outset;
+		border-width: 4px;
+	}
+	
+	.borderC2{
+		position: absolute;
+		border-color: #99ff99;
+		width: 320px;
+		height: 80px;
+		margin-top: 220px;
+		margin-left: 180px;
+		border-style: outset;
+		border-width: 4px;
+	}
+	
+	.borderC3{
+		position: absolute;
+		border-color: #99ff99;
+		width: 320px;
+		height: 60px;
+		margin-top: 320px;
+		margin-left: 180px;
+		border-style: outset;
+		border-width: 4px;
+	}
+	
+	.borderC4{
+		position: absolute;
+		border-color: #99ff99;
+		width: 320px;
+		height: 60px;
+		margin-top: 405px;
+		margin-left: 180px;
+		border-style: outset;
+		border-width: 4px;
+	}
+	
+	.borderC5{
+		position: absolute;
+		border-color: #99ff99;
+		width: 320px;
+		height: 80px;
+		margin-top: 490px;
+		margin-left: 180px;
+		border-style: outset;
+		border-width: 4px;
+	}
+	
+	.borderC6{
+		position: absolute;
+		border-color: #99ff99;
+		width: 320px;
+		height: 130px;
+		margin-top: 45px;
+		margin-left: 540px;
+		border-style: outset;
+		border-width: 4px;
+	}
+	
+	.borderC7{
+		position: absolute;
+		border-color: #99ff99;
+		width: 320px;
+		height: 380px;
+		margin-top: 190px;
+		margin-left: 540px;
+		border-style: outset;
+		border-width: 4px;
+	}
+	th, td{
+		border: 1px solid black;
+		font-weight: normal;
+	}
+	.smallFont{
+		font-size: 12px;
+	}
+	table{
+	
+		width: 99px;
+		height: 155px;
+		border: 2px solid black;
+		margin-left:auto; 
+		margin-right:auto;
+	
+	}
+
+	.miniTable1{
+		position: relative;
+		width: 160px;
+		height: 110px;
+		top:15px;
+		border: 2px solid red;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	.miniTable2{
+		position: relative;
+		width: 160px;
+		height: 90px;
+		border: 2px solid red;
+		border-top-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+	}
+	.miniTable3{
+		position: relative;
+		width: 160px;
+		height: 200px;
+		top: 30px;
+		left: -5px;
+	}
+	
+	.inputBut{
+		background: linear-gradient(#08a8fb, #045ab8);
+		border: 1px solid black;
+		font-size: 11px;
+		padding: 8px 15px;
+		color: #ffffff;
+		font-weight: bold;
+	}
+	
+	.miniTable4{
+		position: relative;
+		width: 160px;
+		height: 60px;
+		left: 35px;
+	}
+	.miniTable5{
+		position: relative;
+		width: 160px;
+		height: 60px;
+		left: 5px;
+	}
+	.miniTable6{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 189px;
+		bottom: 510px;
+	}
+	
+	.miniTable7{
+		position: relative;
+		width: 0px;
+		height: 60px;
+		left: 200px;
+		bottom: 390px;
+	}
+	.miniTable8{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 330px;
+		bottom: 450px;
+	}
+	.miniTable9{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 200px;
+		bottom: 420px;
+		font-size: 15px;
+	}
+	.miniTable10{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 200px;
+		bottom: 410px;
+		font-size: 15px;
+
+	}
+	.miniTable11{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 185px;
+		bottom: 390px;
+	}
+	.miniTable12{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 470px;
+		bottom: 905px;
+		font-size:13px;
+	}
+	
+	.miniTable13{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 600px;
+		bottom: 975px;
+		font-size:13px;
+	}
+	
+	.miniTable14{
+		position: relative;
+		width: 300px;
+		height: 60px;
+		left: 580px;
+		bottom: 850px;
+		font-size:13px;
+	}
+	
+	.informationB{
+		background: #99ff99;
+		color: white;
+		width:150px;
+		margin-top: 25px;
+		margin-left: 25px;
+		border-color: #ffb2b2;
+		border-style: groove;
+	}
+	.pizzaB{
+		background: #99ff99;
+		color: white;
+		width:135px;
+		margin-top: 150px;
+		margin-left: 25px;
+		border-color: #ffb2b2;
+		border-style: groove;
+	}
+	.cheeseB{
+		background: #99ff99;
+		color: white;
+		width: 65px;
+		margin-top: 75px;
+		margin-left: 25px;
+		border-color: #ffb2b2;
+		border-style: groove;
+	}
+	
+	.saucesB{
+		background: #99ff99;
+		color: white;
+		width:65px;
+		margin-top: 60px;
+		margin-left: 25px;
+		border-color: #ffb2b2;
+		border-style: groove;
+	}
+	
+	.specialInstrB{
+		background: #99ff99;
+		color: white;
+		width:135px;
+		margin-top: 60px;
+		margin-left: 25px;
+		border-color: #ffb2b2;
+		border-style: groove;
+	}
+	
+	.toppingB{
+		background: #99ff99;
+		color: white;
+		width:225px;
+		margin-top: 25px;
+		margin-left: 25px;
+		border-color: #ffb2b2;
+		border-style: groove;
+	}
+	
+	#surname{
+		margin-left: 75px;
+		padding: 8px 10px 0px 10px;
+		width: 130px;
+	}
+	#client{
+		margin-left: 42px;
+		padding: 8px 10px 0px 10px;
+		width: 80px;
+	}
+	#phone{
+		margin-left: 50px;
+		padding: 8px 10px 0px 10px;
+		width: 90px;
+	}
+	#dob{
+		margin-left: 41px;
+		padding: 8px 10px 0px 10px;
+		width: 60px;
+	}
+	#pizzaSize{
+		width: 120px;
+	}
+	#pizzaCrust{
+		width: 150px;
+	}
+	#c01,#c02,#c03{
+		margin-left:10px;
+		width: 15px;
+	}
+	#s01,#s02,#s03{
+		margin-left:3px;
+		width: 10px;
+	}
+	#note{
+		width: 310px;
+		height: 40px;
+		resize: none;
+	}
+	#t01,#t02,#t03,#t04,#t05,#t06,#t07,#t08,#t09,#t10,#t11,#t12{
+		margin-left: 50px;
+		width:85px;
+	}

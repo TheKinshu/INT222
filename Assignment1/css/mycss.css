@@ -1,0 +1,165 @@
+/* *********************************************************
+   These are the styles common to all Assignment #1 pages
+   ********************************************************* */
+
+.unLine{
+	text-decoration: underline;
+}  
+ 
+.fontStyle{
+	font-style: italic;
+} 
+   
+/* *********************************************************
+   These are the styles used in the Assignment #1 Home page
+   ********************************************************* */ 
+
+.home-page p{
+	font-style: italic;
+}
+
+
+/* *********************************************************
+   These are the styles used in the Profile page
+   ********************************************************* */
+
+.noUnderline{
+	text-decoration:none;
+}
+
+/* *********************************************************
+   These are the styles used in the Lists  page
+   ********************************************************* */
+
+.sqre{
+	list-style-type: square;
+}
+
+.circle{
+	list-style-type: circle;
+}
+
+.LRN{
+	list-style-type: lower-roman;
+}
+
+.alpha{
+	list-style-type: lower-alpha;
+}
+
+/* *********************************************************
+   These are the styles used in the Text  page
+   ********************************************************* */
+.letSpace{
+	letter-spacing: 3px;
+}
+
+.wordSpace{
+	word-spacing: 30px;
+}
+
+.textIndent{
+	text-indent: 40px;
+}
+	
+.whiteText{
+	color: #ffffff;
+	background-color: #0000cc;
+}
+
+.fontType{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+#underlining{
+	text-decoration: underline;
+}
+
+.textCap{
+	text-transform: uppercase;
+}
+/* *********************************************************
+   These are the styles used in the JavaScript  page
+   ********************************************************* */
+.table1{
+	width: 500px;
+	height: 300px;
+	border: 4px solid black;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+th, td{
+border: 1px solid black;
+}
+
+.captionB {
+    caption-side: bottom;
+}
+.topAlign{
+	vertical-align: top;
+}
+
+.bottomA{
+	vertical-align: bottom;
+}
+
+.table-Unbold{
+	font-weight: normal;
+}
+
+.right{
+	text-align: right;
+}
+
+.left{
+	text-align: left;
+}
+
+.table2{
+	width: 500px;
+	height: 409px;
+	border: 4px solid black;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+.table3{
+	width: 300px;
+	height: 300px;
+	border: 8px solid black;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+table{
+	border-collapse:separate;
+	border-spacing: 10px;
+	padding: 2px;
+
+}
+
+/* *********************************************************
+   These are the styles used in the Contact page
+   ********************************************************* */
+   
+.contactBold{
+	font-weight: bold;
+}
+
+
+/* *********************************************************
+   These are the styles used in the Honesty page
+   ********************************************************* */
+
+
+.unLineHon{
+	text-decoration: underline;
+}  
+
+.fontBold{
+	font-weight: bold;
+}

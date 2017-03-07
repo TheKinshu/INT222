@@ -1,0 +1,65 @@
+   footer  {
+          width:1000px;
+          height:30px;
+          background:#000000;
+          border:1px solid #cccccc;
+          position:absolute;
+          text-align:center; 
+          font-size:13px;
+          margin: auto;
+          padding-top:10px;
+          color:#ffffff; 
+   }
+   
+   
+   body { overflow: scroll; 
+          margin: auto; 
+          width:1000px; 
+          font: 75% georgia, sans-serif;
+          line-height: 1.88889;
+          color: #555753; 
+          background:#ffffff;
+
+   }
+   
+/*This part below is for the home menu*/
+   .backgroundCell{
+	   background: #a3fcf6;
+	   height: 548px;
+	   margin-top: 10px;
+	   margin-bottom: 10px;
+   }
+   
+   .titleNav{
+		margin-top: 5px;
+		background:#000000;
+		padding:0 8px;
+		border:3px solid;
+		width:980px;
+		height: 30px;
+		border-top:transparent;
+		border-bottom:transparent;
+   }
+   
+   .navButton{
+		padding-right:10px;
+		padding-left: 10px;
+		text-decoration: none;
+		font-size: 16px;
+		color: #fff;
+		border-right: 1px solid #cccccc;
+   }
+    .currentPage{
+	   	padding-right:10px;
+		padding-left: 10px;
+		text-decoration: none;
+		font-size: 16px;
+		color: #000;
+		background:#00ff00;
+		border-right: 1px solid #cccccc;
+   }
+   
+   .fontSegoe{
+		font-family: "Segoe Print", Segoe, Regular;
+		font-weight: bold;
+   }

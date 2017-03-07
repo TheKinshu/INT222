@@ -1,0 +1,138 @@
+.type1{
+	text-decoration: underline;
+}
+.type2{
+	text-indent:32px;
+}
+.type3{
+	text-indent:90px;
+}
+.borderRed{
+	border-color:#ff0000;border-style:solid;
+}
+.borderBlue { 
+	border-color:#A9E2F3; border-style:outset; border-width: 2px;
+}
+
+.row1{
+	position: relative;
+	left: 10em;
+	width: 1000px;
+	height: 300px;
+	border: 2px solid red;
+}
+
+.table1{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 50px;
+	width: 250px;
+	height: 250px;	
+}
+.table2{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 350px;
+	width: 300px;
+	height: 290px;	
+    border: 2px dashed black;
+    border-top-color: white;
+	border-bottom-color: white;
+}
+
+.table3{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 680px;
+	width: 250px;
+	height: 250px;	
+}
+
+.row2{
+	position: relative;
+	left: 10em;
+	width: 1000px;
+	height: 300px;
+	border: 2px solid red;
+}
+
+.table4{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 250px;
+	height: 250px;	
+}
+
+.table5{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 350px;
+	width: 300px;
+	height: 290px;	
+    border: 2px dashed black;
+    border-top-color: white;
+	border-bottom-color: white;
+}
+
+.table6{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 680px;
+	width: 250px;
+	height: 250px;	
+}
+
+.row3{
+	position: relative;
+	top: 300px;
+	right: 2px;
+	width: 1000px;
+	height: 100px;
+	border: 2px solid red;
+}
+
+.table7{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 50px;
+	width: 250px;
+	height: 250px;	
+}
+.table8{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 350px;
+	width: 300px;
+	height: 90px;	
+    border: 2px dashed black;
+    border-top-color: white;
+	border-bottom-color: white;
+}
+
+.table9{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 680px;
+	width: 250px;
+	height: 250px;	
+}
+
+figcaption {
+    padding: 1px;
+    margin:  px;
+    font-size: 1em;
+    font-weight: 700;
+    border: 2px solid;
+    word-wrap:normal;
+    text-align:center;
+}
+
+table{
+	border-collaspse:separate;
+	border: 1px solid black
+
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+		<meta charset="utf-8" />
+		<title>Audio</title>
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+		<link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
+	  </head>
+	  <body>
+		<div class="titleNav">
+			<a href="https://zenit.senecac.on.ca/~int222_161f06" class="navButton" title="My Zenit Account">My Zenit Account</a>
+			<a href="index.html" class="navButton" title="Home">Home</a>
+			<a href="photo.html" class="navButton" title="Photo Gallery">Photo Gallery</a>
+			<a href="video.html" class="navButton" title="Video">Video</a>
+			<a href="audio.html" class="currentPage" title="Audio">Audio</a>
+			<a href="html5.html" class="navButton" title="HTML5">HTML5</a>
+			<a href="table.html" class="navButton" title="Tables">Tables with CSS</a>
+			<a href="guestbook/index.html" class="navButton" title="Guest Book">Guest Book</a>
+			<a href="css/sitecss.css" class="navButton" title="CSS">CSS Used</a>
+			<a href="/extra/index.html" class="navButton" title="Extra">Extra</a>
+		</div>
+		<div class="backgroundCell4">
+			<div class="image2">
+				<p class="fontSegoe unLine row1">Social Media</p>
+				<img src="images/imge2.png" alt="">
+			</div>
+			<div class="aTitle">
+				<h1 class="fontSegoe">Audio</h1>
+			</div>
+			<div>
+				<a href="http://facebook.com" title="FaceBook" id="link1"></a>
+				<a href="http://twitter.com" title="Twitter" id="link2"></a>
+				<a href="https://wordpress.com" title="Wordpress" id="link3"></a>
+				<a href="http://youtube.com" title="Youtube" id="link4"></a>
+			</div>
+			<div class="aTable1 aTableC1 fontSegoe">
+				<p class="vFont noBreak">Audio Control Option</p>
+				<input type="button" class="aButton" onclick="audio.play();"  value="Play">
+				<input type="button" class="aButton" onclick="audio.pause();" value="Pause">
+				<input type="button" class="aButton" onclick="audio.load();audio.play();" value="Restart">
+				<input type="button" class="aButton" onclick="audio.volume=1;" value="Volume On">
+				<input type="button" class="aButton" onclick="audio.volume=0;" value="Volume Off">
+				<input type="button" class="aButton" onclick="audio.volume+=0.1;" value="Increase Volume">				
+				<input type="button" class="aButton" onclick="audio.volume-=0.1;" value="Decrease Volume">
+			</div>
+			<div class="aTable2 aTableC1">
+				<p class=" noBreak vFont2 fontSegoe">Audio Description</p>
+				<p class="fontSegoe">This piece is called Clarinet Sonata In Eb Major. This piece was compose by Johannes Brahms. There are 3 movements in this music.</p>
+			</div>
+			<div class="aTable3 aTableC2">
+			<div class="aTable4 aTableC1"></div>
+			<figure>
+			  <audio  controls="controls" class="audioSize">
+				 <source src="misc/sonata.mp3" type="audio/mpeg"/> 
+				 Your browser does not support the audio tag / type
+			  </audio>
+			   <script>
+                   var audio = document.getElementsByTagName('audio')[0];
+                </script>
+			</figure>
+			</div>
+			<div class="aImage1">
+				<img src="images/imge7.png" alt="">
+			</div>
+			<div class="aImage2">
+				<img src="images/imge8.png" alt="">
+			</div>
+			<div class="aName fontSegoe aFont2">
+				<p>Clarinet Sonata No.2, Op.120 No.2 </p>
+			</div>
+		</div>
+	  	<footer>
+		   <script>
+			  var dt=new Date(document.lastModified);   // Get document last modified date
+			  document.write('This page was last updated on '+dt.toLocaleString()) 
+		   </script>
+		</footer>
+	  </body>
+</html>

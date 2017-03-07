@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+		<meta charset="utf-8" />
+		<title>HTML5</title>
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+		<link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
+	  </head>
+	  <body>
+		<div class="titleNav">
+			<a href="https://zenit.senecac.on.ca/~int222_161f06" class="navButton" title="Zenit">My Zenit Account</a>
+			<a href="index.html" class="navButton" title="Home">Home</a>
+			<a href="photo.html" class="navButton" title="Photo">Photo Gallery</a>
+			<a href="video.html" class="navButton" title="Video">Video</a>
+			<a href="audio.html" class="navButton" title="Audio">Audio</a>
+			<a href="html5.html" class="currentPage" title="HTML5">HTML5</a>
+			<a href="table.html" class="navButton" title="Tables">Tables with CSS</a>
+			<a href="guestbook/index.html" class="navButton" title="Guest">Guest Book</a>
+			<a href="css/sitecss.css" class="navButton" title="CSS">CSS Used</a>
+			<a href="extra/index.html" class="navButton" title="Extra">Extra</a>
+		</div>
+		<div class="backgroundCell5">
+			<div class="image2">
+				<p class="fontSegoe unLine row1">Social Media</p>
+				<img src="images/imge2.png" alt="">
+			</div>
+			<div>
+				<a href="http://facebook.com" title="FaceBook" id="link1"></a>
+				<a href="http://twitter.com" title="Twitter" id="link2"></a>
+				<a href="https://wordpress.com" title="Wordpress" id="link3"></a>
+				<a href="http://youtube.com" title="Youtube" id="link4"></a>
+			</div>
+			<div class="hTitle"><p class="fontSegoe hFont1">New attributes in HTML5</p></div>
+			<div class="hTable1">
+				<ol>
+					<li>Datalist</li>
+					<li>Required for an entry</li>
+					<li>Placeholder</li>
+					<li>Valid email format</li>
+				</ol>
+			</div>
+			<div class="hTable2  hTableC">
+				<p class="fontSegoe hFont1 hTextMove1 noBreak">HTML5 New Form Attributes</p>
+				<p class="fontSegoe">HTML5 introduce mew type of form input tags. Some of these new features are datalist, output, keygen and etc.</p>
+			</div>
+			<div class="hTable3 hTableC">
+				<p class="fontSegoe hFont1 hTextMove2 noBreak">HTML CODES<br></p>
+				<p class="fontSegoe hTextMove3 noBreak">How to create a Datalist</p>
+				<p class="hTextMove4"><br>[input list="browsers" name="browser"] [datalist id="browsers"]  [option value="Internet Explorer"]Internet Explorer[/option] [/datalist]</p>
+			</div>
+			<form class="dataListT">
+				  <input list="browsers" name="browser">
+				  <datalist id="browsers">
+					<option value="Internet Explorer">Internet Explorer</option>
+					<option value="Firefox">Firefox</option>
+					<option value="Chrome">Chrome</option>
+					<option value="Opera">Opera</option>
+					<option value="Safari">Safari</option>
+				  </datalist>
+			</form>
+			<p class="fontSegoe hTextMove5">How to create Required field</p>
+			<form class="requiredField">
+			  <input type="text" name="usrname" required>
+			  <input type="submit">
+			</form>
+			<p class="hTextMove6">[input type="text" name="usrname" required]<br></p>
+			<p class="fontSegoe hTextMove7">How to create a Placeholder</p>
+			<form class="placeHold">
+			  <input type="text" name="fname" placeholder="First name">
+			</form> 
+			<p class="hTextMove8">[input type="text" name="fname" placeholder="First name"]</p>
+			<p class="fontSegoe hTextMove9">How to check if email is valid</p>
+			<form class="emailChecker">
+			<input type="email" name="email" required placeholder="Enter a valid email address">
+			<input type="submit">
+			</form>
+			<p class="hTextMove10">[input type="email" name="email" required placeholder="Enter a valid email address"]</p>
+			<div class="hImage1">
+				<img src="images/imge10.png" alt="">
+			</div>
+			<div class="hImage2">
+				<img src="images/imge9.png" alt="">
+			</div>
+		</div>
+	  	<footer>
+		   <script>
+			  var dt=new Date(document.lastModified);   // Get document last modified date
+			  document.write('This page was last updated on '+dt.toLocaleString()) 
+		   </script>
+		</footer>
+	  </body>
+</html>

@@ -1,0 +1,224 @@
+   footer  {
+          width:1000px;
+          height:30px;
+          background:#000000;
+          border:1px solid #cccccc;
+          position:absolute;
+          text-align:center; 
+          font-size:13px;
+          margin: auto;
+          padding-top:10px;
+          color:#ffffff; 
+   }
+   
+   
+   body { overflow: scroll; 
+          margin: auto; 
+          width:1000px; 
+          font: 75% georgia, sans-serif;
+          line-height: 1.88889;
+          color: #555753; 
+          background:#ffffff;
+
+   }
+   
+/*This part below is for the home menu*/
+   .backgroundCell{
+	   background: #a3fcf6;
+	   height: 548px;
+	   margin-top: 10px;
+	   margin-bottom: 10px;
+   }
+   
+   .titleNav{
+		margin-top: 5px;
+		background:#000000;
+		padding:0 8px;
+		border:3px solid;
+		width:980px;
+		height: 30px;
+		border-top:transparent;
+		border-bottom:transparent;
+   }
+   
+   .navButton{
+		padding-right:10px;
+		padding-left: 10px;
+		text-decoration: none;
+		font-size: 16px;
+		color: #fff;
+		border: 1px solid #cccccc;
+		border-top: transparent;
+		border-left: transparent;
+		border-bottom: transparent;
+   }
+    .currentPage{
+	   	padding-right:10px;
+		padding-left: 10px;
+		text-decoration: none;
+		font-size: 16px;
+		color: #000;
+		background:#00ff00;
+		border: 1px solid #cccccc;
+		border-top: transparent;
+		border-left: transparent;
+		border-bottom: transparent;
+   }
+   
+   .fontSegoe{
+		font-family: "Segoe Print", Segoe, Regular;
+		font-weight: bold;
+   }
+   
+   .row1{
+		font-size: 17px;
+		padding-left: 20%;
+   }
+   
+   
+   .unLine{
+   		text-decoration: underline;
+   }
+   
+	.moveWhiteSpace{
+		padding-right: 30%;
+		padding-left: 4%;
+		color: #000;
+	}
+   
+   .noUnderline{
+		text-decoration: none;
+   }
+   
+   .whiteBack1{
+		background: #fff;
+		border-right: 3px solid #a3a3a3;
+		margin-left: 10px;
+		width:80%;
+		
+   }
+   .bottomLine{
+   		border-bottom:1px solid #000;
+   }
+   .moveLinkTitle{
+		margin-left: 10px;
+		height: 3px;
+   }
+   
+   .moveUp{
+		height: 45px;
+   }
+   
+   .table1{
+   		position: absolute;
+   		border: 1px solid  transparent;
+		height: 50%;
+		width: 26%;
+	}
+	
+	.table2{
+		position: absolute;
+		margin-left: 1%;
+		border: 1px solid transparent;
+		height: 40%;
+		width: 30%;
+		margin-top: 20%;
+		background: #c2ebe7;
+	}
+	
+	   
+   .row2{
+		font-size: 17px;
+		padding-left: 30%;
+		padding-bottom:20px;
+		height: 8px;
+   }
+   
+   	.table3{
+		position: absolute;
+		margin-left: 45%;
+		margin-top: 20%;
+		border: 1px solid transparent;
+		height: 40%;
+		width: 28%;
+		background: #c2ebe7;
+	}
+	.row3{
+		font-size: 17px;
+		padding-left: 25%;
+		padding-bottom:20px;
+		height: 8px;
+   }
+   
+	.parFont{
+		font-size:11.1px;
+	}
+	
+	.image1{
+		position: absolute;
+		height:12%;
+		width: 12%;
+		margin-left: 32%;	
+		margin-top: 17%;
+	}
+	.image1 img{
+	    width: 100%;
+		height: auto;
+	}
+	.image2{
+		position: absolute;
+		height:20%;
+		width: 20%;
+		margin-left: 53%;	
+		margin-top: 2%;
+	}
+	.image2 img{
+	    width: 100%;
+		height: auto;
+	}
+	.image3{
+		position: absolute;
+		height: 35%;
+		width: 35%;
+		margin-left: 20%;
+		margin-bottom: 10px;
+	}
+	.image3 img{
+	    width: 100%;
+		height: auto;
+	}
+	
+	#link1{
+		width: 23px; 
+		height: 23px; 
+		position: absolute; 
+		border: 1px solid transparent;
+		top: 140px;
+		margin-left:720px;		
+	}
+	#link2{
+		width: 23px; 
+		height: 23px; 
+		position: absolute; 
+		border: 1px solid transparent;
+		top: 140px;
+		margin-left:748px;	
+	}
+	#link3{
+		width: 23px; 
+		height: 23px; 
+		position: absolute; 
+		border: 1px solid transparent;
+		top: 170px;
+		margin-left:720px;	
+	}
+	#link4{
+		width: 23px; 
+		height: 23px; 
+		position: absolute; 
+		border: 1px solid transparent;
+		top: 140px;
+		margin-left:955px;		
+	}
+/*This is the end of home menu*/
+/*This is for the photo menu*.

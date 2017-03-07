@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8" />
+	<title>INT222</title>
+	<script>
+		function name(firstname){
+			return firstname;
+		}
+		function getLength(eLength){
+			return eLength.length;
+		}
+		function getLetter(firstLetter){
+			return firstLetter.substring(0, 1);
+		}
+		function combine(firstLetter,otherLetter){
+			return firstLetter + otherLetter;
+		}
+		function multiTable(num){
+		    document.write("<table border=1>");
+			document.write(" <caption>The number in e2 is "+ num +"</caption>");
+			document.write(" <tr>");
+			document.write(" <th colspan=5>Times Table for the number "+ num +"</th>");
+			document.write(" </tr>");
+				for (var i = 1 ; i <= 12 ; i++) {  
+					document.write(" <tr>");
+					document.write("  <td>"+num+"</td>");
+					document.write("  <td>x</td>");
+					document.write("  <td>" + i   + "</td>");
+					document.write("  <td>=</td>");
+					document.write("  <td>" + num*i + "</td>");
+					document.write(" </tr>");
+				}
+			document.write("</table>");
+		}
+		function sumAll(num){
+			var sum = 0;
+			for(var i = 0; i < 5; i++){
+				sum = sum +  (num[i] * 1);
+			}
+            return sum;
+		}
+		function differentC(colour){
+			var c = "";
+            for(var i = 0; i < 3; i++){
+				c += colour[i];
+				c += "\n";
+			}
+			return c;
+         }
+	</script>
+  </head>
+  <body>
+	<script>
+	var e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="", temp, temp2, nameLength;
+	e1 = prompt("Enter your first name in lower case");
+	alert(name(e1));
+	nameLength = getLength(e1);
+	temp = getLetter(e1);
+	temp = temp.toUpperCase();
+	temp2 = e1.substring(1,nameLength);
+	e1 = combine(temp, temp2);
+	alert(e1);
+	e2 = prompt(e1 + ", please enter an integer between 1 and 9.");
+	e3 = prompt("Please enter 5 numbers separated b commas");
+	e4 = prompt("Enter 3 colors separated by commas");
+	e6 = e3.split(",");
+	e7 = e4.split(",");
+	multiTable(e2);
+	e8 = 0;
+	e8 = sumAll(e6)
+	alert(e8);
+	e9 = differentC(e7);
+	alert(e9);
+	</script>
+  </body>
+</html>

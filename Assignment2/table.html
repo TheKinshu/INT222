@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+		<meta charset="utf-8" />
+		<title>Table with CSS</title>
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+		<link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
+	  </head>
+	  <body>
+		<div class="titleNav">
+			<a href="https://zenit.senecac.on.ca/~int222_161f06" class="navButton" title="My Zenit Account">My Zenit Account</a>
+			<a href="index.html" class="navButton" title="Home">Home</a>
+			<a href="photo.html" class="navButton" title="Photo Gallery">Photo Gallery</a>
+			<a href="video.html" class="navButton" title="Video">Video</a>
+			<a href="audio.html" class="navButton" title="Audio">Audio</a>
+			<a href="html5.html" class="navButton" title="HTML5">HTML5</a>
+			<a href="table.html" class="currentPage" title="Tables">Tables with CSS</a>
+			<a href="guestbook/index.html" class="navButton" title="Guest">Guest Book</a>
+			<a href="css/sitecss.css" class="navButton" title="CSS">CSS Used</a>
+			<a href="extra/index.html" class="navButton" title="Extra">Extra</a>
+		</div>
+		<div class="backgroundCell">
+			<div class="tImage1">
+				<p class="fontSegoe unLine row1">Social Media</p>
+				<img src="images/imge2.png" alt="">
+			</div>
+			<div>
+				<a href="http://facebook.com" title="FaceBook" id="Tlink1"></a>
+				<a href="http://twitter.com" title="Twitter" id="Tlink2"></a>
+				<a href="https://wordpress.com" title="Wordpress" id="Tlink3"></a>
+				<a href="http://youtube.com" title="Youtube" id="Tlink4"></a>
+			</div>
+			<div class="image11">
+				<img src="images/imge11.png" alt="">			
+			</div>
+			<div class="tTable1 vTableC1">
+				<div class="miniTable1">
+					<p class="tMoveText1">HTML table with CSS</p>
+					<table class="miniTable2">
+						<tr>
+							<td class="tc1">This</td>
+							<td class="tc2">Little</td>
+							<td class="tc3">Piggy</td>
+							<td class="tc4">Went</td>
+							<td class="tc5">To</td>
+							<td class="tc6">Market</td>
+						</tr>
+						<tr>
+							<td class="tc1" colspan="2">This</td>
+							<td class="tc2">Little</td>
+							<td class="tc3">Piggy</td>
+							<td class="tc4">Went</td>
+							<td class="tc5">To</td>
+						</tr>
+						<tr>
+							<td class="tc1" colspan="4">This</td>
+							<td class="tc2" rowspan="3">Little</td>
+							<td class="tc3">Piggy</td>
+						</tr>	
+						<tr>
+							<td class="tc1" rowspan="2">This</td>
+							<td class="tc2">Little</td>
+							<td class="tc3">Piggy</td>
+							<td class="tc4">Went</td>
+							<td class="tc5">To</td>
+						</tr>	
+						<tr>
+							<td class="tc1">Little</td>
+							<td class="tc2">Piggy</td>
+							<td class="tc3">Went</td>
+							<td class="tc4">To</td>
+						</tr>	
+					</table>
+				</div>
+			</div>
+			<p class="tMoveText2 unLine fontSegoe">CSS Properties Used</p>
+			<div class="tTable2">
+				<ol>
+					<li>Padding</li>
+					<li>Margin</li>
+					<li>Border</li>
+					<li>Border-Spacing</li>
+				</ol>
+			</div>
+		</div>
+	  	<footer>
+		   <script>
+			  var dt=new Date(document.lastModified);   // Get document last modified date
+			  document.write('This page was last updated on '+dt.toLocaleString()) 
+		   </script>
+		</footer>
+	  </body>
+</html>

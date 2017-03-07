@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+		<meta charset="utf-8" />
+		<title>Video</title>
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+		<link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
+	  </head>
+	  <body>
+		<div class="titleNav">
+			<a href="https://zenit.senecac.on.ca/~int222_161f06" class="navButton" title="My Zenit Account">My Zenit Account</a>
+			<a href="index.html" class="navButton" title="Home">Home</a>
+			<a href="photo.html" class="navButton" title="Photo Gallery">Photo Gallery</a>
+			<a href="video.html" class="currentPage" title="Video">Video</a>
+			<a href="audio.html" class="navButton" title="Audio">Audio</a>
+			<a href="html5.html" class="navButton" title="HTML5">HTML5</a>
+			<a href="table.html" class="navButton" title="Tables">Tables with CSS</a>
+			<a href="guestbook/index.html" class="navButton" title="Guest Book">Guest Book</a>
+			<a href="css/sitecss.css" class="navButton" title="CSS">CSS Used</a>
+			<a href="/extra/index.html" class="navButton" title="Extra">Extra</a>
+		</div>
+		<div class="backgroundCell3">
+			<div class="image2">
+				<p class="fontSegoe unLine row1">Social Media</p>
+				<img src="images/imge2.png" alt="">
+			</div>
+			<div class="vTitle">
+				<h1 class="fontSegoe">Video</h1>
+			</div>
+			<div>
+				<a href="http://facebook.com" title="FaceBook" id="link1"></a>
+				<a href="http://twitter.com" title="Twitter" id="link2"></a>
+				<a href="https://wordpress.com" title="Wordpress" id="link3"></a>
+				<a href="http://youtube.com" title="Youtube" id="link4"></a>
+			</div>
+			<div class="vTable1 vTableC1 fontSegoe">
+				<p class="vFont noBreak">Video Control Option</p>
+				<input type="button" class="vButton" onclick="video.play();" value="Play">
+				<input type="button" class="vButton" onclick="video.pause();" value="Pause">
+				<input type="button" class="vButton" onclick="video.load();video.play();" value="Restart">
+				<input type="button" class="vButton" onclick="video.load();video.controls=true;" value="Show Controls">
+				<input type="button" class="vButton" onclick="video.load();video.controls=false;"  value="Remove Controls">
+			</div>
+			<div class="vTable2 vTableC2">
+				<p class=" noBreak vFont2 fontSegoe">Video Description</p>
+				<p class="fontSegoe">This video is made by Riot Games to promote their new designs for their characters in the game League of Legends back
+				in September 08, 2015.</p>
+			</div>
+			<div class="vTable3 vTableC2">
+			<figure>
+			  <video controls="controls" class="videoSize">
+				 <source src="misc/OVERDRIVE.mp4" type="video/mp4"/> 
+				 Your browser does not support the video tag / type
+			  </video>
+			  <script>
+                   var video = document.getElementsByTagName('video')[0];
+               </script>
+			</figure>
+			</div>
+			<div class="vImage1">
+				<img src="images/imge5.png" alt="">
+			</div>
+			<div class="vImage2">
+				<img src="images/imge6.png" alt="">
+			</div>
+			<div class="vName fontSegoe vFont2">
+				<p>Project: Overload</p>
+			</div>
+		</div>
+	  	<footer>
+		   <script>
+			  var dt=new Date(document.lastModified);   // Get document last modified date
+			  document.write('This page was last updated on '+dt.toLocaleString()) 
+		   </script>
+		</footer>
+	  </body>
+</html>
